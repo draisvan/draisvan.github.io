@@ -100,4 +100,4 @@ _effect = 2
   - star
 =================================================*/
 var _starColor = 'rgba(255, 255, 255, 0.9)';// star color
-var _starWidth = 3;// star width
+var _starWidth = 0.5;// star width
