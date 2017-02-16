@@ -447,7 +447,8 @@ textarea {
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
     .section-subtitle2 {
-      padding-top: 5px;
+      padding-top: 50px;
+
     }
 }
 @media screen and (min-width: 768px) {
