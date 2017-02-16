@@ -406,22 +406,24 @@ textarea {
   margin-top: 15px;
 }
  /*Iphone 5 Media queries */
-@media screen and (max-width:320px) {
-  .header-logo {
-    /*display: none;*/
-  }
-}
 
 @media screen and (max-width:320px) {
   .section-subtitle {
-    display: none; 
+    display: none;
   }
 }
+@media screen and (max-width:375px) {
+  .section-subtitle {
+    display: none;
+  }
+}
+
 @media screen and (max-width:320px) {
   .section-subtitle2 {
     letter-spacing: normal;
   }
 }
+
 
 
 
