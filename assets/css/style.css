@@ -173,6 +173,8 @@ h6,
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 5px;
+  -webkit-font-smoothing: antialiased;
+
 }
 h1,
 .h1 {
@@ -233,6 +235,8 @@ i {
 }
 #address {
   font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
 }
 /*==============================================================================
 5 - Component
@@ -443,12 +447,6 @@ textarea {
     .header-logo {
       height: 40px;
       margin-top: 10px;
-    }
-}
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
-    .section-subtitle2 {
-      padding-top: 50px;
-
     }
 }
 @media screen and (min-width: 768px) {
@@ -922,6 +920,21 @@ canvas {
   font-size: 20px;
   margin-bottom: 0;
   color: #DDDDDD;
+}
+@media screen and (min-width: 480px) {
+  .section-title2 {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-title2 {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-title2 {
+    font-size: 60px;
+  }
 }
 
 .section-subtitle {
