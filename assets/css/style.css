@@ -414,34 +414,16 @@ textarea {
 
 @media screen and (max-width:320px) {
   .section-subtitle {
+    display: none; 
+  }
+}
+@media screen and (max-width:320px) {
+  .section-subtitle2 {
     letter-spacing: normal;
   }
 }
 
-@media screen and (max-width:320px) {
-  #footer-social {
-    /*display: none;*/
-  }
-}
- /*Iphone 5 Media queries */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-  /* For landscape layouts only */
-  #home {
-    padding-bottom: -90px;
-    display: inline-block;
-  }
-}
-
-
-@media only screen and (min-device-width: 568px) and (max-device-width: 320px) and (orientation:landscape) {
-  /* For landscape layouts only */
-  #home, .header-logo {
-    /*padding-bottom: -90px;*/
-    display: inline-block;
-    margin-top: 5px;
-  }
-}
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
     .header-logo {
