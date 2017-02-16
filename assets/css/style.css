@@ -909,12 +909,20 @@ canvas {
     font-size: 60px;
   }
 }
+.section-subtitle2 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #DDDDDD;
+}
+
 .section-subtitle {
   font-weight: 400;
   letter-spacing: 5px;
   padding-left: 5px;
   font-size: 20px;
-  padding-top: 5px;
   text-transform: uppercase;
   margin-bottom: 0;
   color: #ffd1dc;
