@@ -408,7 +408,7 @@ textarea {
  /*Iphone 5 Media queries */
 @media screen and (max-width:320px) {
   .header-logo {
-    display: none;
+    /*display: none;*/
   }
 }
 
