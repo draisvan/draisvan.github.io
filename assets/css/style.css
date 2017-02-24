@@ -1396,3 +1396,11 @@ iPad:
 @viewport {
   width: device-width;
 }
+
+.logo {
+  height: 100px;
+  width: 200px;
+  overflow: visible;
+  text-align: center;
+  margin: auto;
+}
