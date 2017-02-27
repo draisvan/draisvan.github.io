@@ -10,10 +10,10 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="Drai&#39;s Vancouver">
-<meta name="keywords" content="Drai&#39;s Vancouver">
-<meta name="author" content="Michael Christianson">
-<title>Drai&#39;s Vancouver</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<title>Drai&#39;s NightClub</title>
 
 <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
 <link rel='stylesheet' href='assets/css/style.css'>
@@ -21,24 +21,6 @@
 <link rel='stylesheet' href='assets/css/custom.css'>
 <link rel='stylesheet' href='assets/css/font-awesome.min.css'>
 <link rel="icon" href="assets/img/drais-logo-black.png">
-<style>
-    #bodymovin{
-        width: 200px;
-        height: 100px;
-        display: block;
-        overflow: hidden;
-        transform: translate3d(0,0,0);
-        margin: auto;
-        opacity: 1;
-    }
-    #bodymovin path {
-      fill: white;
-    }
-    .botas_loop_3,.botas_loop_2{
-        display:none
-    }
-
-</style>
 </head>
 <body>
 
@@ -73,6 +55,12 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12">
+        <!-- header brand -->
+        <!-- <div class="header-brand">
+          <img class="header-logo" href="drais/index.html" src="assets/img/drais-logo.png">
+
+        </div> -->
+        <!-- header brand -->
 
         <!-- header toggle-->
         <div class="header-toggle">
@@ -130,14 +118,9 @@
               <!-- section header -->
               <div class="section-header row text-center">
                 <div class="col-lg-12">
-                  <!-- <img class="logo" src="assets/img/rsz_drais-logo-02.png"> -->
-                <div class="col-xs-12">
-
-                  <div id="bodymovin"></div>
-
-
+                  <img class="logo" src="assets/img/rsz_drais-logo-02.png">
                   <p class="animation section-subtitle">Something new is coming to Vancouver's nightlife...</p>
-                  <h1 class="section-title" >Coming Soon</h1>
+                  
                   <div class="animation section-divider"></div>
                 </div>
               </div>
@@ -219,27 +202,7 @@
   <script src='assets/js/vendor/vendor.js'></script>
   <script src='assets/js/variable.js'></script>
   <script src='assets/js/main.js'></script>
-  <script src="bodymovin.js"></script>
-  <script>
 
-      var anim;
-      var animData = {
-          container: document.getElementById('bodymovin'),
-          renderer: 'svg',
-          loop: false,
-          autoplay: false,
-          rendererSettings: {
-              progressiveLoad:false
-          },
-          path: 'data.json'
-      };
-      anim = bodymovin.loadAnimation(animData);
-      setTimeout(function () {
-        anim.play();
-      }, 2500);
-
-
-  </script>
   <!-- /script -->
 
 </body>
